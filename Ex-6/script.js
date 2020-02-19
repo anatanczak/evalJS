@@ -8,24 +8,24 @@ do {
     name = prompt("Entrez un prénom");
 } while (name === "");
 
-console.log(name);
-console.log(tab[0]);
 
 // mettre tout en miniscule au moment de la comparaison
 
 //check if it's not nill and if array includes it
-// if (name != null && tab.includes(name)) {
+if (name != null) {
 
-//     tab.forEach((item, index) => {
+    tab.forEach((item, index) => {
 
-//         if (item === name) {
+        item = item.toUpperCase();
+        name = name.toUpperCase();
+        if (item === name) {
 
-//             tab.splice(index, 1);
-//             //strange thing to do but it's a task
-//             tab.length = tab.length + 1;
-//         }
-//         console.log(tab);
-//     });
-// } else {
-//     console.log("name is null");
-// }
+            tab.splice(index, 1);
+            //strange thing to do but it's a task
+            tab.length = tab.length + 1;
+        }
+        console.log(tab);
+    });
+} else {
+    console.log("name is null");
+}
