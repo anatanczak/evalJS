@@ -18,7 +18,22 @@ do {
 // get 0 out of array
 let lastElement = numbers.pop()
 
-max = Math.max(...numbers);
-min = Math.min(...numbers);
+//my solution 
+// max = Math.max(...numbers);
+// min = Math.min(...numbers);
+
+//other solution
+max = 0;
+min = Number.MAX_SAFE_INTEGER;
+
+for (const value of numbers) {
+    if (value > max) {
+        max = value;
+    }
+    if (value < min) {
+        min = value;
+    }
+}
+
 
 alert("Le max est: " + max + " Le min est: " + min);
