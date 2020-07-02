@@ -16,4 +16,4 @@ for (i = 0; i < inputNumInt; i++) {
     sum = sum + i;
 }
 
-alert(sum);
+alert("La somme est " + sum);

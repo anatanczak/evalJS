@@ -5,7 +5,7 @@ let name;
 
 //get the name
 do {
-    name = prompt("Entrez un prénom");
+    name = prompt("Entrez un prénom.");
 } while (name === "");
 
 

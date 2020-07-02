@@ -19,21 +19,27 @@ do {
 let lastElement = numbers.pop()
 
 //my solution 
-// max = Math.max(...numbers);
-// min = Math.min(...numbers);
+if (numbers === undefined || numbers.length == 0) {
+ alert("C'est pas possible de calculer le max ou le min sans aucun nombre. Desolé.");   
+}else{
+max = Math.max(...numbers);
+min = Math.min(...numbers);
 
-//other solution
-max = 0;
-min = Number.MAX_SAFE_INTEGER;
-
-for (const value of numbers) {
-    if (value > max) {
-        max = value;
-    }
-    if (value < min) {
-        min = value;
-    }
+alert("Le max est: " + max + " Le min est: " + min);
 }
 
 
-alert("Le max est: " + max + " Le min est: " + min);
+//other solution
+// max = 0;
+// min = Number.MAX_SAFE_INTEGER;
+
+// for (const value of numbers) {
+//     if (value > max) {
+//         max = value;
+//     }
+//     if (value < min) {
+//         min = value;
+//     }
+// }
+
+
