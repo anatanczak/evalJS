@@ -2,6 +2,7 @@ let inputNumberString;
 let inputNumInt;
 let sum = 0;
 
+//get the input
 do {
     inputNumberString = prompt("Entrez un nombre en entier de 1 à 1000.");
     inputNumInt = parseInt(inputNumberString);
@@ -12,6 +13,7 @@ do {
     }
 } while (isNaN(inputNumberString));
 
+//calculate
 for (i = 0; i < inputNumInt; i++) {
     sum = sum + i;
 }

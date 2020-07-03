@@ -7,7 +7,7 @@ let vieux = 0;
 
 
 
-
+//get user input for a very strange exersice which makes no sense and is quite rude
 
 do {
     ageString = prompt("Entrer l'age entre 0 et 200");

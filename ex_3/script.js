@@ -5,7 +5,7 @@ let enteredNumberInt;
 let min;
 let max;
 
-
+//get user input
 do {
     numberUserInput = prompt("saisissez un entier Nr°" + nameNumberCount + "ou entrer le 0 pour arrêter le saisie.");
     nameNumberCount++;
@@ -18,7 +18,7 @@ do {
 // get 0 out of array
 let lastElement = numbers.pop()
 
-//my solution 
+//my solution (calculate the max and min)
 if (numbers === undefined || numbers.length == 0) {
  alert("C'est pas possible de calculer le max ou le min sans aucun nombre. Desolé.");   
 }else{

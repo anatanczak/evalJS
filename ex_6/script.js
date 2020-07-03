@@ -9,7 +9,7 @@ do {
 } while (name === "");
 
 
-// mettre tout en miniscule au moment de la comparaison
+
 
 //check if it's not nill and if array includes it
 if (name != null) {
