@@ -5,16 +5,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
     <title>EX INDEX PAGE</title>
 </head>
 
 <body>
 <h1>La liste de exercices</h1>
-<a href="ex_1/index.html">Exercice 1</a>
-<a href="ex_2/index.html">Exercice 2</a>
-<a href="ex_3/index.html">Exercice 3</a>
-<a href="ex_4/index.html">Exercice 4</a>
-<a href="ex_5/index.html">Exercice 5</a>
+<h2>Partie 6</h2>
+
+<div class="ex-wrapper">
+<h3>1 - Parité </h3>
+<p>Ecrivez un programme qui demande un nombre à l’utilisateur puis qui teste si ce nombre est pair. Le programme doit afficher le résultat « nombre pair » ou « nombre impair ». Vous devez utiliser l’opérateur modulo « % » qui donne le reste d’une division. a%2 donne le reste de la division de a par 2, si ce reste est égale à zéro, a est divisible par 2. </p>
+<a href="js_6_cond/ex_1_p6/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>2 - Age</h3>
+<p>Ecrivez un programme qui demande l’année de naissance à l’utilisateur.
+En réponse votre programme doit afficher l’âge de l’utilisateur et indiquer si l’utilisateur est majeur ou mineur.</p>
+<a href="js_6_cond/ex_2_p6/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>3 - Calculette</h3>
+<p>Faire la saisie de 2 nombres entiers, puis la saisie d'un opérateur '+', '-', '*' ou '/'.
+Si l'utilisateur entre un opérateur erroné, le programme affichera un message d'erreur.
+Dans le cas contraire, le programme effectuera l'opération demandée (en prévoyant le cas d'erreur "division par 0"), puis affichera le résultat.</p>
+<a href="js_6_cond/ex_3_p6/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>4 - Remise</h3>
+<p>A partir de la saisie du prix unitaire PU d’un produit et de la quantité commandée QTECOM, afficher le prix à payer PAP, en détaillant le port PORT et la remise REM, sachant que :
+<ul>
+<li>le port est gratuit si le prix des produits TOT est supérieur à 500 €. Dans le cas contraire, le port est de 2% de TOT</li>
+<li>la valeur minimale du port à payer est de 6 €</li>
+<li>la remise est de 5% si TOT est compris entre 100 et 200 € et de 10% au-delà</li>
+</ul> </p>
+<a href="ex_1/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>5 - Participation</h3>
+<p>Un patron décide de calculer le montant de sa participation au prix du repas de ses employés de la façon suivante :
+<ul>
+<li>si il est célibataire : participation de 20%</li>
+<li>si il est marié : participation de 25%</li>
+<li>si il a des enfants : participation de 10% supplémentaires par enfant
+La participation est plafonnée à 50%</li>
+</ul>
+Si le salaire mensuel est inférieur à 1200 € la participation est majorée de 10%.
+Ecrire le programme qui lit les informations au clavier et affiche pour chaque salarié, la participation à laquelle il a droit.</p>
+<a href="ex_1/index.html">Voir l'exercice</a>
+</div>
+
+
+<h2>Partie 7</h2>
+<div class="ex-wrapper">
+<h3>1 - Saisie</h3>
+<p>Créer une page HTML qui demande à l’utilisateur un prénom.
+La page doit continuer à demander des prénoms à l’utilisateur jusqu’à ce qu’il laisse le champ vide. Enfin, la page affiche sur la console le nombre de prénoms et les prénoms saisis.</p>
+<a href="js_7_boucles/ex_1_bc7/index.html">Voir l'exercice</a>
+</div>
+
+
+<div class="ex-wrapper">
+<h3>2 - Entiers inférieurs à N</h3>
+<p>Ecrivez un programme qui affiche les nombres inférieurs à N.</p>
+<a href="js_7_boucles/ex_2_bc7/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>3 - Somme des entiers inférieurs à N</h3>
+<p>Ecrivez un programme qui affiche la somme des nombres inférieurs à N.</p>
+<a href="js_7_boucles/ex_3_bc7/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>4 - Somme d'un intervalle</h3>
+<p>Ecrivez un programme qui saisit deux nombres n1 et n2 et qui calcul ensuite la somme des entiers de n1 à n2.</p>
+<a href="js_7_boucles/ex_4_bc7/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>5 - Moyenne</h3>
+<p>Ecrire un programme qui saisit des entiers et en affiche la somme et la moyenne (on arrête la saisie avec la valeur 0)</p>
+<a href="js_7_boucles/ex_5_bc7/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>6 - Mini et maxi</h3>
+<p>Modifiez le programme de la moyenne pour afficher le minimum et le maximum</p>
+<a href="ex_3/index.html">Voir l'exercice</a>
+</div>
+
+
+<div class="ex-wrapper">
+<h3>7 - Multiples</h3>
+<p>Ecrire un programme qui calcule les N premiers multiples d'un nombre entier X, N et X étant entrés au clavier.
+<h4>Exemple pour N=5 et X=7 :</h4>
+<ul>
+<li>1 x 7 = 7</li>
+<li>2 x 7 = 14</li>
+<li>3 x 7 = 21</li>
+<li>4 x 7 = 28</li>
+<li>5 x 7 = 35</li>
+</ul>  
+Il est demandé de choisir la structure répétitive (for, while, do...while) la mieux appropriée au pro- blème.
+On ne demande pas pour le moment de gérer les débordements (overflows) dus à des demandes de calcul dépassant la capacité de la machine.</p>
+<a href="ex_5/index.html">Voir l'exercice</a>
+</div>
+
+
+<div class="ex-wrapper">
+<h3>7 - Nombre de voyelles.</h3>
+<p>Ecrire le programme qui compte le nombre de voyelles d’un mot saisi au clavier.</p>
+<a href="js_7_boucles/ex_7_bc7/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>9 - Calcul du nombre de jeunes, adultes et de personnes plus de 40 ans.</h3>
+<p>Il s’agit de dénombrer les personnes d'âge strictement inférieur à 20 ans, les personnes d'âge stric- tement supérieur à 40 ans et celles dont l'âge est compris entre 20 ans et 40 ans (20 ans et 40 ans y compris).
+Le programme doit demander les âges successifs.
+Le comptage est arrêté dès la saisie d’un centenaire. Le centenaire est compté. Donnez le programme Javascript correspondant qui affiche les résultats.</p>
+<a href="ex_4/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>10 - Un nombre est-il premier</h3>
+<p>Ecrivez un programme qui permet de tester si un nombre est premier.</p>
+<a href="js_7_boucles/ex_10_bc7/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>11 - Nombre magique</h3>
+<p>Ecrire un programme qui met en œuvre le jeu du nombre magique :
+L’ordinateur choisit un nombre aléatoire et l’utilisateur doit trouver ce nombre. A chaque fois que l’utilisateur saisit une valeur, il reçoit une indication lui indiquant « plus petit » ou « plus grand ».
+Vous aurez besoin de générer un nombre aléatoire avec la fonction random de l’objet Math : var magic = parseInt(Math.random()*100);
+Utilisez alert pour afficher les messages « Trop grand » ou « Trop petit », prompt pour demander une valeur à l’utilisateur et confirm pour lui demander de rejouer.</p>
+<a href="js_7_boucles/ex_11_bc7/index.html">Voir l'exercice</a>
+</div>
+
+<h2>Partie 8</h2>
+<div class="ex-wrapper">
+<h3>Exercice 1</h3>
+<p>Créer les 2 fonctions suivantes :
+<ul>
+<li>produit(x, y) qui retourne le produit des 2 variables x, y passées en paramètre.</li>
+<li>afficheImg(image) qui affiche l’image passée en paramètre.</li>
+</ul></p>
+<a href="js_8_funcs/ex_1_func8/index.html">Voir l'exercice</a>
+</div>
+
+
+<div class="ex-wrapper">
+<h3>Exercice 2 - Table de multiplication</h3>
+<p>Ecrivez une fonction qui affiche une table de multiplication.
+Votre fonction doit prendre un paramètre qui permet d’indiquer quelle table afficher.
+Par exemple TableMultiplication(7)doit afficher :
+<ul>
+<li>1 x 7 = 7</li>
+<li>2 x 7 = 14</li>
+<li>3 x 7 = 21</li>
+<li>4 x 7 = 28</li>
+<li>5 x 7 = 35</li>
+</ul> 
+...</p>
+<a href="ex_5/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>Exercice 3 - Compter le nombre de lettres</h3>
+<p>Ecrivez une fonction qui prend deux paramètres :
+<ul>
+<li>phrase de type string</li>
+<li>lettre de type string</li>
+</ul>
+La fonction compte le nombre de fois ou lettre apparaît dans phrase.
+</p>
+<a href="js_8_funcs/ex_3_func8/index.html">Voir l'exercice</a>
+</div>
+
+
+
 </body>
 
 </html>

@@ -1,19 +1,18 @@
 let numbers = [];
-let numberUserInput;
+let num;
 let nameNumberCount = 1;
-let enteredNumberInt;
 let min;
 let max;
 
 //get user input
 do {
-    numberUserInput = prompt("saisissez un entier Nr°" + nameNumberCount + "ou entrer le 0 pour arrêter le saisie.");
+    num = prompt("saisissez un entier Nr°" + nameNumberCount + "ou entrer le 0 pour arrêter le saisie.");
     nameNumberCount++;
-    enteredNumberInt = parseInt(numberUserInput)
-    if (!isNaN(enteredNumberInt)) {
-        numbers.push(enteredNumberInt);
+    num = parseInt(num)
+    if (!isNaN(num)) {
+        numbers.push(num);
     }
-} while (numberUserInput !== "0");
+} while (num !== 0);
 
 // get 0 out of array
 let lastElement = numbers.pop()

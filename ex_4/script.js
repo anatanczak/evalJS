@@ -1,24 +1,21 @@
 //jshint esversion: 6
-let ageString;
-let ageInt;
-let jeunes = 0;
-let moyens = 0;
-let vieux = 0;
+let age;
+let personUnder20 = 0;
+let adult = 0;
+let adultOver40 = 0;
 
 
-
-//get user input for a very strange exersice which makes no sense and is quite rude
 
 do {
-    ageString = prompt("Entrer l'age entre 0 et 200");
-    ageInt = parseInt(ageString);
-    if (ageInt >= 0 && ageInt < 20) {
-        jeunes++;
-    } else if (ageInt >= 20 && ageInt <= 40) {
-        moyens++;
-    } else if (ageInt > 40) {
-        vieux++;
+    age = prompt("Entrer l'age entre 0 et 200");
+    age = parseInt(age);
+    if (age >= 0 && age < 20) {
+        personUnder20++;
+    } else if (age >= 20 && age <= 40) {
+        adult++;
+    } else if (age > 40) {
+        adultOver40++;
     }
-} while (ageInt < 100);
+} while (age < 100);
 
-alert("jeunes: " + jeunes + " moyens: " + moyens + " vieux: " + vieux);
+alert("Jeunes: " + personUnder20 + " adultes: " + adult + " adultes de plus de 40 ans: " + adultOver40);
