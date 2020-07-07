@@ -1,3 +1,5 @@
+
+
 //jshint esversion: 6
 var tab = ["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];
 
@@ -29,3 +31,5 @@ if (name != null) {
 } else {
     console.log("name is null");
 }
+
+alert("La reponse est dans la concole")

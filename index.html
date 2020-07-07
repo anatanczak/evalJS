@@ -13,7 +13,7 @@
 
 <body>
 <h1>La liste de exercices</h1>
-<h2>Partie 6</h2>
+<h2>Partie 6 - Les conditions</h2>
 
 <div class="ex-wrapper">
 <h3>1 - Parité </h3>
@@ -62,7 +62,8 @@ Ecrire le programme qui lit les informations au clavier et affiche pour chaque s
 </div>
 
 
-<h2>Partie 7</h2>
+<!-- --------------------------------------------------------------------- -->
+<h2>Partie 7 - Les boucles</h2>
 <div class="ex-wrapper">
 <h3>1 - Saisie</h3>
 <p>Créer une page HTML qui demande à l’utilisateur un prénom.
@@ -148,7 +149,9 @@ Utilisez alert pour afficher les messages « Trop grand » ou « Trop petit », 
 <a href="js_7_boucles/ex_11_bc7/index.html">Voir l'exercice</a>
 </div>
 
-<h2>Partie 8</h2>
+
+<!-- ------------------------------------------------------------------------- -->
+<h2>Partie 8 - Les fonctions</h2>
 <div class="ex-wrapper">
 <h3>Exercice 1</h3>
 <p>Créer les 2 fonctions suivantes :
@@ -188,8 +191,69 @@ La fonction compte le nombre de fois ou lettre apparaît dans phrase.
 <a href="js_8_funcs/ex_3_func8/index.html">Voir l'exercice</a>
 </div>
 
+<div class="ex-wrapper">
+<h3>Exercice 4 - Menu</h3>
+<p>A partir du menu affiché à l’écran vous exécuterez, par les 3 premières options, les exercices déjà réalisés, appelés sous forme de fonc- tion.
+L’option 4 est une généralisation de la recherche du nombre de voyelles dans un mot : elle permet de rechercher la présence de n’importe quel caractère dans une chaîne.
+La recherche de voyelles dans une chaîne constitue une surcharge de cette fonction, dans la mesure où les caractères à rechercher seront fournis sous forme de chaîne.</p>
+<a href="js_8_funcs/ex_4_func8/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>Exercice 5 - String Token</h3>
+<p>Concevez la fonction strtok qui prend 3 paramètres str1, str2, n en entrée et renvoie une chaîne de caractères : str1 est composée d’une liste de mots séparés par le caractère str2.
+strtok sert à extraire le nième mot de str1.
+Exemple :
+Pour str1 = « robert ;dupont ;amiens ;80000 », strtok (str1, « ; », 3) doit retourner « amiens »</p>
+<a href="js_8_funcs/ex_5_func8/index.html">Voir l'exercice</a>
+</div>
 
 
+<!-- ------------------------------------------------------------------------- -->
+<h2>Partie 9 - Les tableaux</h2>
+
+<div class="ex-wrapper">
+<h3>Exercice 1</h3>
+<p>Ecrivez un programme permettant de créer un tableau, dont la taille est saisie au clavier. Ensuite l'utilisateur doit rentrer les différentes valeurs du tableau.
+Puis votre programme doit afficher le contenu du tableau.</p>
+<a href="js_10_arrays/ex_1_arrays/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>Exercice 2</h3>
+<p>Créer le programme qui fournira un menu permettant d’obtenir les fonctionnalités suivantes à partir d’un tableau à une dimension :
+<ul>
+<li>Affichage du contenu de tous les postes du tableau,</li>
+<li>Affichage du contenu d’un poste dont l’index est saisi au clavier,</li>
+<li>Affichage du maximum et de la moyenne des postes du tableau</li>
+</ul>
+Ce programme sera structuré de la manière suivante :
+<ul>
+<li>une fonction GetInteger pour lire un entier au clavier,</li>
+<li>une fonction InitTab pour créer et initialiser l’instance de tableau : le nombre de postes souhaité sera entré au clavier,</li>
+<li>une fonction SaisieTab pour permettre la saisie des différents postes du tableau,</li>
+<li>une fonction AfficheTab pour afficher tous les postes du tableau,</li>
+<li>une fonction RechercheTab pour afficher le contenu d’un poste de tableau dont le rang est saisi au clavier</li>
+<li>une fonction InfoTab qui affichera le maximum et la moyenne des postes.</li>
+</ul>
+Les fonctions seront appelées successivement.</p>
+<a href="js_10_arrays/ex_2_arrays/index.html">Voir l'exercice</a>
+</div>
+
+<div class="ex-wrapper">
+<h3>Exercice 3</h3>
+<p>On recherche dans un tableau contenant 20 prénoms, un prénom saisi au clavier.
+Lorsque cet élément est trouvé, on l’élimine du tableau en décalant les cases qui le suivent, et en mettant à blanc la dernière case.</p>
+<a href="ex_6/index.html">Voir l'exercice</a>
+</div>
+
+
+
+<div class="ex-wrapper">
+<h3>Exercice 4 : Tri d’un tableau</h3>
+<p>Ecrire le programme qui réalise le tri à bulles.</p>
+<a href="js_10_arrays/ex_3_arrays/index.html">Voir l'exercice</a>
+</div>
 </body>
 
 </html>

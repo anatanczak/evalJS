@@ -30,3 +30,5 @@ function strtok(str1, str2, n) {
 }
 
 strtok("aaa;zzz;eee;rrr;tttttt;yyyyy;ooooo", ";", 3)
+
+alert("Cette exercice n'a pas d'interface c'est une simple fonction à tester avec la console")
