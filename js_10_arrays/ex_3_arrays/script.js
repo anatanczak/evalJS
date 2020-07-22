@@ -1,24 +1,33 @@
-alert("Cette exercice n'a pas d'interface. Tous se passe dans la concole")
+let integers = []
+let input
+let integer
+let counter = 1
 
-//TO DO : Not working;
+do {
+    input = prompt(`saisissez un entier Nr°${counter}. Toutes les autres valeurs que integer vont pas être pise en compte. Vous pouvez annuler la saisie avec le bouton Annuler`)
+    integer = parseInt(input)
+    if (!isNaN(integer)) {
+        integers.push(integer)
+    }
+    counter++;
+} while (input != null)
+
 
 function bubbleSort(unsortedArray) {
-  for (i = 0; i < unsortedArray.length; i++) {
-    for (j = 0; j < unsortedArray.length - 1; j++) {
-      if (unsortedArray[j] > unsortedArray[j + 1]) {
-        let temp = unsortedArray[j];
-        unsortedArray[j] = unsortedArray[j + 1];
-        unsortedArray[j + 1] = temp;
-      }
+    for (i = 0; i < unsortedArray.length; i++) {
+        for (j = 0; j < unsortedArray.length - 1; j++) {
+            if (unsortedArray[j] > unsortedArray[j + 1]) {
+                let temp = unsortedArray[j]
+                unsortedArray[j] = unsortedArray[j + 1]
+                unsortedArray[j + 1] = temp
+            }
+        }
     }
-  }
-  console.log("sorted:" + unsortedArray)
+    console.log("sorted:" + unsortedArray)
 }
+let sortedIntegers = bubbleSort(integers);
+alert(`Le tableau non trié : ${integers} Le tableau trié : ${}`)
 
-let array2 = [1, 9, 5, 7, 1, 0, 5];
-
-bubbleSort(array2);
-console.log(array2);
 
 
 
